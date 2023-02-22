@@ -12,7 +12,7 @@ def load_data():
     return data
 
 
-st.title("Ibis Releases Dashboard")
+st.title("Ibis Project Releases Dashboard")
 data = load_data()
 st.subheader("Releases")
 st.write(data)
